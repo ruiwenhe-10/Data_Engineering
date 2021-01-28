@@ -1,14 +1,8 @@
 # bigdata_Google_Cloud_Platform
 
-StackOverflow Analysis
+Big Data Analysis	
 
-•	Description: Utilize Scala, Parallel Computing(spark), and Machine Learning with Dataproc to clusters over 1,000,000 posts on the popular question-answer platform StackOverflow according to their score
-
-•	Transform and aggregate posts using Spark into a score RDD, and then construct vector RDD for clustering
-
-•	Implement distributed k-means cluster in Scala from scratch, define learning rate and max iteration
-
-•	Write a script to initialize Dataproc clusters, submit the job, and delete the clusters after job finishes for cost saving
-
-Update(2020/10):
-  add airflow
+•	Transformed and aggregated posts using Spark into a score RDD, and then constructed vector RDD for clustering
+•	Implemented distributed k-means cluster in Scala from scratch, defined learning rate and max iteration
+•	Built Machine Learning pipeline by deploying Spark clusters using Google Composer with Airflow
+•	Automated, monitored, and improved workflow by defining DAG file in python and using Airflow UI and Google Cloud SDK
